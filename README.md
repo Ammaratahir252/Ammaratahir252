@@ -4,8 +4,8 @@
 ### AI/ML Engineer · NLP & LLM Systems · Computer Vision · Generative AI
 **Islamabad, Pakistan** · Open to remote & on-site roles (PK · UAE · Global)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/YOUR_HF)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ammara-tahir-991258348/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/https://huggingface.co/tahirammar)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:tahirammara9@gmail.com)
 
 </div>
@@ -98,15 +98,8 @@ Full-stack AI-powered lead generation web app. Backend deployed on HuggingFace S
 
 ## Stats
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ammaratahir252&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ammaratahir252&layout=compact&theme=default&hide_border=true&langs_count=6)
-
-</div>
-
----
+![Profile Views](https://komarev.com/ghpvc/?username=Ammaratahir252&color=0e75b6&style=flat&label=Profile+views)
+![GitHub followers](https://img.shields.io/github/followers/Ammaratahir252?style=flat&label=Followers)
 
 <div align="center">
 
