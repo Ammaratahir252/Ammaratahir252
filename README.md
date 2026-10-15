@@ -14,14 +14,33 @@
 
 ## About me
 
-Applied AI Engineer with hands-on experience designing and shipping **6 production AI systems** across 6 internships — covering the full lifecycle from data preprocessing to live deployment.
+Applied AI Engineer with hands-on experience designing and shipping **6 production AI systems** across 4 internships — covering the full lifecycle from data preprocessing to live deployment.
 
 I specialise in **LLM systems, RAG pipelines, and multi-agent architectures**, with strong foundations in classical ML, computer vision, and NLP. I care about building things that actually work in production, not just in notebooks.
 
 - 🔭 Currently building: full-stack AI-powered web applications
 - 🌱 Learning: PyTorch, Docker/MLOps, AWS Cloud
-- 💬 Ask me about: LangGraph, RAG pipelines, Whisper ASR, FastAPI, NLP from scratch
+- 🔬 Researching: shortcut learning and dataset quality in audio deepfake detection
+- 💬 Ask me about: LangGraph, RAG pipelines, Whisper ASR, audio deepfake detection, FastAPI, NLP from scratch
 - 📫 Reach me: tahirammara9@gmail.com
+
+---
+
+## Research
+
+### 🔊 Acoustic Shortcuts in Audio Deepfake Datasets
+> Preprint in preparation · Python · PyTorch · Whisper · scikit-learn · librosa
+
+Audio deepfake detectors often report near-perfect scores on the dataset they were trained on. I audited **ten audio deepfake datasets on Hugging Face** and showed that many of these scores can come from recording artefacts rather than real detection:
+
+- Seven simple non-semantic features (silence, loudness, duration, zero-crossing rate) separate real from fake clips in **6 of 10 datasets**, and adding storage-format features (sampling rate, bandwidth, noise floor) makes **all 10** separable.
+- These cues **do not transfer**: a model trained on one dataset averages chance-level AUC (0.50) on the others.
+- A frozen Whisper detector scores **≥ 0.996 AUC in-domain** but only **0.57–0.79 on ASVspoof 2019 LA**, and counterfactual tests show it treats loudness as evidence of fakeness.
+
+### 🛠️ [ShortcutScope](https://github.com/Ammaratahir252/shortcutscope) — open-source dataset audit tool
+> Python · Hugging Face Datasets · scikit-learn
+
+Checks whether an audio deepfake dataset can be "solved" from simple acoustic properties before you train on it. Runs on a CPU, works with any Hugging Face or folder dataset, prints the label mapping it uses, and reports cross-validated AUCs with confidence intervals. Includes the full, reproducible experiment pipeline behind the paper.
 
 ---
 
@@ -80,6 +99,8 @@ Full-stack AI-powered lead generation web app. Backend deployed on HuggingFace S
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![librosa](https://img.shields.io/badge/librosa-audio-4B8BBE?style=flat)
 
 **LLM / GenAI**
 
@@ -103,7 +124,7 @@ Full-stack AI-powered lead generation web app. Backend deployed on HuggingFace S
 
 <div align="center">
 
-*Open to junior AI/ML Engineer, NLP Engineer, and ML Developer roles.*
+*Open to junior AI/ML Engineer, NLP Engineer, ML Developer and research roles.*
 *Available for remote work globally and on-site in Pakistan or UAE.*
 
 </div>
